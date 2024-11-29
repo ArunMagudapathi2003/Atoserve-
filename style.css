@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: brown;
+    padding: 15px ;
+    display: flex;
+    justify-content: space-between;
+}
+header .contact{
+    display: flex;
+    
+    
+}
+header .contact .number{
+    margin-right: 23px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+header .contact .email{
+    margin-right: 23px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+header input{
+    padding: 5px 0 ;
+}
+.nav{
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn button{
+    padding: 15px 20px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 22px;
+}
+button:active {
+    background-color: green;
+}
+button:hover {
+    background-color: rgb(42, 22, 219);
+}
+.nav h2{
+    color: rgb(204, 20, 20);
+
+}
+.list{
+    display: flex;
+    
+}
+
+li{
+    padding-right: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+}
+select{
+    border: none;
+    font-size: 17px;
+}
+.body{
+    background-color: black;
+    height: 100vh;
+
+}
+button{
+    padding: 20px;
+}
+h1{
+    color: red;
+
+}
+.container{
+    background-color:white;
+    margin-left: 80px;
+    margin-top: 80px;
+    width: 50%;
+    height: 50%;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 2fr;
+}
+.flight{
+    display: grid;
+    grid-template-columns: 2fr;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.radio{
+    display: block;
+}
+input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.lable {
+    padding-right: 40px;
+}
+.date{
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
